@@ -1,0 +1,2 @@
+# mystore
+Spree ecommerce
