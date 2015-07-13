@@ -27,7 +27,9 @@ gem 'spree_i18n', git: 'git://github.com/spree/spree_i18n.git', branch: '3-0-sta
 #Gem needed to implement our extension into our spree app.
 gem 'spree_simple_sales', :path => '../spree_simple_sales'
 
-
+gem 'spree_editor', github: 'spree-contrib/spree_editor', branch: '3-0-stable'
+#To obtain support for multiple languages
+gem 'tinymce-rails-langs'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -6,7 +6,10 @@
 # Note: If a preference is set here it will be stored within the cache & database upon initialization.
 #       Just removing an entry from this initializer will not make the preference value go away.
 #       Instead you must either set a new value or remove entry, clear cache, and remove database entry.
-#
+SpreeEditor::Config.tap do |config|
+  config.current_editor = 'CKEditor'
+  config.ids = 'product_description page_body event_body'
+end
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
 Spree.config do |config|
