@@ -10,3 +10,13 @@ Deface::Override.new(:virtual_path => 'spree/shared/_header',
 	:name => 'logo',
 	:replace_contents => '#logo',
 	:text =>  "Geaux Bubbles")
+
+Deface::Override.new(virtual_path: "spree/shared/_nav_bar",
+                     name: "my_navbar",
+                     replace: "ul#main-nav-bar") do
+  "<nav class='navbar navbar-default navbar-fixed-top'>
+    <div class='container'>
+      ...
+    </div>
+  </nav>"
+end

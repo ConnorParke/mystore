@@ -31,6 +31,8 @@ gem 'spree_editor', github: 'spree-contrib/spree_editor', branch: '3-0-stable'
 #To obtain support for multiple languages
 gem 'tinymce-rails-langs'
 
+gem 'spree_frontend', '~> 3.0.1'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
