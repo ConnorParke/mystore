@@ -9,3 +9,8 @@ Deface::Override.new(:virtual_path => 'spree/admin/products/_form',
       <%= f.error_message_on :sale_price %>
     <% end %>
   ")
+
+Deface::Override.new(:virtual_path => 'spree/shared/_products',
+                     :insert_before => "div#products",
+                     :text => "geauxbubbles@yahoo.comgeauxbubbles@yahoo.comgeauxbubbles@yahoo.comgeauxbubbles@yahoo.comgeauxbubbles@yahoo.comgeauxbubbles@yahoo.comgeauxbubbles@yahoo.comgeauxbubbles@yahoo.com",
+                     :name => "Testing_navbar_fixed")
